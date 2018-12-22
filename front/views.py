@@ -6,4 +6,4 @@ from django.http import HttpResponse
 
 def shouye(request):
  #   return HttpResponse("shouye ")
-    return render(request, 'daohang.html')
+    return render(request, 'test.html')
