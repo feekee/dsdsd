@@ -9,4 +9,4 @@ def shouye(request):
     return render(request, 'js_learn.html')
 
 def api(request):
-    return HttpResponse('API测试')
+    return render(request, 'api.html')
