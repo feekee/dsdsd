@@ -20,5 +20,6 @@ from front import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^api/$', views.api),
     url(r'^', views.shouye),
 ]
