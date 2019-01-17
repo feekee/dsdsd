@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+
+
+</head>
+<body>
+    <p id="demo">一个段落</p>
+    <button type="button" onclick="myFunction()">修改</button>
+    <script>
+     function myFunction() {document.getElementById("demo").innerHTML="函数示例";}
+    </script>
+    <script>
+       window.alert(5 + 6);
+    </script>
+    <script>
+    function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == null || x == "") {
+        alert("输入不可为空");
+        return false;
+    }
+}   </script>
+    <form name="myForm" action="demo_form.php" onsubmit="return validateForm()" method="post">名字: <input type="text" name="fname">
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
